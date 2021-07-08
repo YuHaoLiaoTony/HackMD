@@ -74,15 +74,15 @@ description:
 ||持卡狀態查詢|QryUCTI0610|CRDCTIC0610|TR_CARD_MAIN|
 |||getC0101_BillOverview_Dtl|
 ||取繳款金額欄位|getCRDCTIC0730|CRDCTIC0730|TR_CARD_MAIN|
-|帳務查詢|未出帳消費明細|C0102_BillInq||
-|||getC0102_BillInq_Rst
+|帳務查詢|未出帳消費明細|C0102_BillInq|||
+|||getC0102_BillInq_Rst|||
 ||雙幣歷史帳單查詢中台|GetACOCBILLSUMYQ501|ACO-C-BILLSUMYQ501|fuse|
 ||主力卡方案查詢|getMainForceCardPlan|CCP-B-NTCAP04Q001|fuse|
 ||主力卡方案說明|getMainForceCardPlanDescription|ODS-B-MISFBDESQ001|fuse|
 ||雙幣歷史帳單明細整合查詢中台|GetACOCBILLDETLQ505|ACO-C-BILLDETLQ505|fuse|
-|||getC0102_BillInq_Set
+|||getC0102_BillInq_Set|||
 ||個人基本資料查詢|QryContactData|CRDCTIC0010|TR_CARD_MAIN|
-|回饋專區|小樹點|C0401_BonusInq|
+|回饋專區|小樹點|C0401_BonusInq|||
 |||GetBonusInq_RstRel|||
 |||BonusService.GetCCPCNTUSE27QC03|CCP-C-NTUSE27QC03|Fuse|
 |||GetBonusInq_RstHis|||
@@ -108,6 +108,7 @@ description:
 ||帳單分期設定|ApplyService.GetCRDBNTUSEINSM002|CRD-B-NTUSEINSM002|Fuse|
 ||查詢已分期帳單|getC0202_BillInstallment_Dtl|||
 ||信用卡帳單分期查詢|ApplyService.GetCRDBNTUSEINSQ002|CRD-B-NTUSEINSQ002|Fuse|
+
 # 繳費繳稅
 |Tag|功能名稱|Action|Msgid|EAI|
 |-|-|-|-|-|
@@ -206,4 +207,3 @@ description:
 ||查詢客戶網銀密碼資訊|CommonService.getFPIN1201|FPIN1201|TR_EFT|
 ||產險/人壽-簽署/取消SSO授權同意書|SetCathaySSOAuth|MSP-B-IDPAGREET002|Fuse|
 # 證期投資
-
