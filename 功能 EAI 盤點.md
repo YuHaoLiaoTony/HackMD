@@ -207,3 +207,14 @@ description:
 ||查詢客戶網銀密碼資訊|CommonService.getFPIN1201|FPIN1201|TR_EFT|
 ||產險/人壽-簽署/取消SSO授權同意書|SetCathaySSOAuth|MSP-B-IDPAGREET002|Fuse|
 # 證期投資
+|Tag|功能名稱|Action|Msgid|EAI|
+|-|-|-|-|-|
+|組合式商品|組合式商品查詢|B0509_CombinedProdInq|||
+|國外有價證券|債券自營買賣查詢|F1101_DealerBondTxn|||
+||債券自營庫存查詢|F1102_DealerBondInventory|||
+|證期帳務|集保庫存|S0402_ReservesInq_Qry|||
+||對帳單查詢|S0401_BankStatementInq_Qry|||
+|複委託|交割資訊|S0801_ReconsingnmentOrder_Qry|||
+||對帳單查詢|S0902_ReconsingnmentOnTime_Qry|||
+||||||
+||||||
